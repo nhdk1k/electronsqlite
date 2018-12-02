@@ -1,0 +1,22 @@
+{
+  "name": "electronsqlite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w sqlite3",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.10",
+    "electron-builder": "^20.38.2",
+    "electron-rebuild": "^1.8.2"
+  },
+  "dependencies": {
+    "sqlite3": "^4.0.4"
+  }
+}
